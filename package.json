@@ -37,5 +37,6 @@
   "strapi": {
     "uuid": "abece55b-374b-41c0-95f1-3cc274b9aceb",
     "installId": "ddd722d0179a96cb6b81a7896f127459f389625d260d8c19699b7a695250c540"
-  }
+  },
+  "packageManager": "pnpm@10.16.1+sha512.0e155aa2629db8672b49e8475da6226aa4bdea85fdcdfdc15350874946d4f3c91faaf64cbdc4a5d1ab8002f473d5c3fcedcd197989cf0390f9badd3c04678706"
 }

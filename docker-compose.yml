@@ -1,0 +1,45 @@
+services:
+  postgres:
+    image: postgres:15-alpine
+    container_name: strapi-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: strapi
+      POSTGRES_USER: gabor_ottlik
+      POSTGRES_PASSWORD: noi03gyy
+      POSTGRES_PORT: 5432
+      POSTGRES_HOST: 127.0.0.1
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./database/init:/docker-entrypoint-initdb.d
+    networks:
+      - strapi-network
+
+  # Optional: Add pgAdmin for database management
+  # pgadmin:
+  #   image: dpage/pgadmin4:latest
+  #   container_name: strapi-pgadmin
+  #   restart: unless-stopped
+  #   environment:
+  #     PGADMIN_DEFAULT_EMAIL: admin@example.com
+  #     PGADMIN_DEFAULT_PASSWORD: noi03gyy
+  #   ports:
+  #     - "5050:80"
+  #   volumes:
+  #     - pgadmin_data:/var/lib/pgadmin
+  #   depends_on:
+  #     - postgres
+  #   networks:
+  #     - strapi-network
+
+volumes:
+  postgres_data:
+    driver: local
+  # pgadmin_data:
+  #   driver: local
+
+networks:
+  strapi-network:
+    driver: bridge

@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_section_heroes",
+  "info": {
+    "displayName": "hero"
+  },
+  "options": {},
+  "attributes": {
+    "small_intro": {
+      "type": "string"
+    },
+    "intro_first_part": {
+      "type": "string"
+    },
+    "intro_last_part": {
+      "type": "string"
+    },
+    "cta": {
+      "type": "component",
+      "component": "component.button",
+      "repeatable": false
+    },
+    "description": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

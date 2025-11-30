@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_component_awards",
+  "info": {
+    "displayName": "award"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subTitle": {
+      "type": "text"
+    },
+    "link": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

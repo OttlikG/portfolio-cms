@@ -21,7 +21,15 @@
       "type": "dynamiczone",
       "components": [
         "section.text-section-with-cta",
-        "section.hero"
+        "section.hero",
+        "section.selected-works",
+        "section.three-column-description",
+        "section.marquee",
+        "section.testimonial",
+        "section.awards",
+        "section.insight",
+        "section.get-in-touch",
+        "section.post-list"
       ]
     }
   }

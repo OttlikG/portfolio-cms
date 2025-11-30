@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_section_insights",
+  "info": {
+    "displayName": "insight"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    },
+    "posts": {
+      "type": "component",
+      "component": "component.post",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

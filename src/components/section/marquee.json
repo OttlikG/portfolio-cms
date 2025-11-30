@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_section_marquees",
+  "info": {
+    "displayName": "marquee"
+  },
+  "options": {},
+  "attributes": {
+    "images": {
+      "type": "component",
+      "component": "component.image",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

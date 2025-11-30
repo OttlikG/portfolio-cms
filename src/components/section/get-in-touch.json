@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_section_get_in_touches",
+  "info": {
+    "displayName": "getInTouch"
+  },
+  "options": {},
+  "attributes": {
+    "firstTitle": {
+      "type": "string"
+    },
+    "secondTitle": {
+      "type": "string"
+    },
+    "cta": {
+      "type": "component",
+      "component": "component.button",
+      "repeatable": false
+    },
+    "links": {
+      "type": "component",
+      "component": "component.button",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

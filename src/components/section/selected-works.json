@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_section_selected_works",
+  "info": {
+    "displayName": "selectedWorks"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "cta": {
+      "type": "component",
+      "component": "component.button",
+      "repeatable": false
+    },
+    "images": {
+      "type": "component",
+      "component": "component.image",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

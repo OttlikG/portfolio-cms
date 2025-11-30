@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_section_three_column_descriptions",
+  "info": {
+    "displayName": "threeColumnDescription"
+  },
+  "options": {},
+  "attributes": {
+    "columnItems": {
+      "type": "component",
+      "component": "component.title-with-description",
+      "repeatable": true,
+      "max": 3
+    }
+  },
+  "config": {}
+}

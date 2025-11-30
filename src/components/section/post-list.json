@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_section_post_lists",
+  "info": {
+    "displayName": "postList"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "viewAll": {
+      "type": "component",
+      "component": "component.button",
+      "repeatable": false
+    },
+    "posts": {
+      "type": "component",
+      "component": "component.post",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

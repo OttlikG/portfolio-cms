@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_component_posts",
+  "info": {
+    "displayName": "post"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "tags": {
+      "type": "component",
+      "component": "component.tag",
+      "repeatable": true
+    },
+    "content": {
+      "type": "blocks"
+    },
+    "image": {
+      "type": "component",
+      "component": "component.image",
+      "repeatable": false
+    }
+  },
+  "config": {}
+}
